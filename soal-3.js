@@ -3,7 +3,7 @@
 
 // Soal Nomor 3
 
-let regex = /^  $|^Bootcamp impact byte$|^Status covid hari ini$/;
+let regex = /^Bagaimana cara memulai usaha bisnis$|^Bootcamp impact byte$|^Status covid hari ini$/;
 let inputBox = document.querySelector("#inputBox");
 let inputButton = document.querySelector("#inputButton");
 let display = document.querySelector("#display");
@@ -36,8 +36,6 @@ inputButton.addEventListener ("click", () => {
 //         display.appendChild(summonDiv)
 
 
-
-//display.innerHTML += regex.test("Bagaimana cara memulai usaha bisnis");
 
 
 
